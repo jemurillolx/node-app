@@ -13,7 +13,7 @@ const app = express();
 //configuraciones
 
 //el puerto disponible o el de default 3000
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 
 //funciones 
 app.use(morgan('dev'));
