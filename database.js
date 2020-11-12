@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGODB_URI = `mongodb+srv://bamjorge2020:bamjorge2020@cluster0.hcmfc.mongodb.net/test?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://<usuario>:clave@linkaBDD?retryWrites=true&w=usuarioOpera`;
 
 mongoose
   .connect(MONGODB_URI, {
